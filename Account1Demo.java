@@ -6,7 +6,7 @@ class Account1Demo
         my_account.startAccount(20000.00);
         my_account.deposit(540.00);
         System.out.println("Current Balance "+my_account.getbalance());
-        my_account.withdrawmoney(235.00);
+        my_account.withdrawmoney(500000.00);
         System.out.println("Remaining balance "+my_account.getbalance());
     }
 }
