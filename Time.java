@@ -1,4 +1,4 @@
-class time
+class Time
 {
     int hr,min,sec,ans;
     void accept(int h,int m,int s)
@@ -17,7 +17,7 @@ class time
     }
     public static void main()
     {
-        time obj = new time();
+        Time obj = new Time();
         obj.accept(8,31,39);
         obj.convert();
         obj.showResult();
