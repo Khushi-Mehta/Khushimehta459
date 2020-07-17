@@ -11,12 +11,12 @@ class avg2
     double calc()
     {
         ans = (num1+num2+num3)/3;
-        return ans;
+        return ans;//return statement
     }
-    public static void main()
+    public static void main()//main method
     {
-        avg2 obj = new avg2();
-        obj.init(99,100,94);
+        avg2 obj = new avg2();//default constructor 
+        obj.init(99,100,94);//actual parameters, invocation of member methods
         double result = obj.calc();
         System.out.println("The ans is: "+result);
     }

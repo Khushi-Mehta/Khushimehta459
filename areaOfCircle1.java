@@ -1,10 +1,10 @@
 class areaOfCircle1
 {
-    double radius,ans;
-    final double pi = 3.14;
-    void init(double r)
+    double radius,ans;//instance variable, class variable, 
+    final double pi = 3.14;//final restricts a user to change the value of a variable
+    void init(double r)//formal parameters
     {
-        radius=r;
+        radius=r;//local variables
     }
     void calc()
     {

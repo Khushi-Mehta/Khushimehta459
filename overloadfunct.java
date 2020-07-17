@@ -13,7 +13,7 @@ class overloadfunct
     {
         System.out.println("The square is "+f*f);
     }
-    void prnsqr(double d)
+    void prnsqr(double d)//overloading is being done
     {
         System.out.println("The sqaure of "+d+" is: "+d*d);
     }
@@ -22,7 +22,7 @@ class overloadfunct
         overloadfunct obj = new overloadfunct();
         obj.prnsqr('K');//actual parameter
         obj.prnsqr(4.5);
-        obj.prnsqr(9.3f);//it is necessary to add f along with a no. to be stored in float to differentiate it from double ans imilarly with long l has to be added
+        obj.prnsqr(9.3f);//it is necessary to append f along with a no. to be stored in float to differentiate it from double ans imilarly with long l has to be added
         obj.prnsqr(7);
     }
 }

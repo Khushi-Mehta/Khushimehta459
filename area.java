@@ -1,19 +1,20 @@
 class area
 {
+    final double pi = 3.14;
+    double ans;
     void area1(int a)
     {
-      int ans = a*a;
+      ans = a*a;
       System.out.println("The ans is"+ans);
     }
     void area1(int a, int b)
     {
-        int ans = a*b;
+        ans = a*b;
         System.out.println("The ans is"+ans);
     }
     void area1(double a)
     {
-        final double pi = 3.14;
-        double ans = pi*a*a;
+        ans = pi*a*a;
         System.out.println("The ans is:"+ans);
     }
     public static void main()

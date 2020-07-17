@@ -1,4 +1,4 @@
-class sum14
+class sum1_4
 {
     public static void main(String args[])
     {

@@ -1,9 +1,9 @@
 class extra1
 {
-    int s, ans1, ans2;//non-static variables
+    int s, ans1, ans2;//static variables- can be invoked without creating instances/ class variables
     void init()
     {
-        s=5;
+        s=5;//formal parameters/ local varaibles/ non-static 
     }
     void calc()
     {

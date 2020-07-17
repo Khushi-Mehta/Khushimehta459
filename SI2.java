@@ -18,10 +18,10 @@ class SI2
     }
     public static void main()
     {
-    SI2 obj = new SI2();
-    obj.init(5,2000,2.5);
-    obj.calc();
-    obj.display();
-}
+      SI2 obj = new SI2();
+      obj.init(5,2000,2.5);
+      obj.calc();
+      obj.display();
+    }
 }
 

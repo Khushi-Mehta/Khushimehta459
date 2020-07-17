@@ -10,7 +10,7 @@ class avg3
     }
     void calc()
     {
-        ans = (b+c+m)/3;
+        ans = (b+c+m)/3;//non- parameterized
     }
     void display()
     {

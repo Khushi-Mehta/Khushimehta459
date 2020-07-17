@@ -9,7 +9,7 @@ class extra5
     }
     void calc()
     {
-        ans=num1+a;
+        ans=num1+(int)a;
     }
     void display()
     {

@@ -6,7 +6,7 @@ class SI1
     {
         principle=p;
         time=t;
-        rate=r;
+        rate=r;//local variables
     }
     void calc()
     {
