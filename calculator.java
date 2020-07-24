@@ -25,7 +25,7 @@ class calculator//class name
     {
         ans = a/b;
     }
-    void calculate( char ch)
+    void calculate()
     {
         if (ch == '+')
         {
@@ -56,7 +56,7 @@ class calculator//class name
     {
         calculator obj = new calculator();
         obj.init(a,b,ch);
-        obj.calculate(ch);
+        obj.calculate();
     }
 }
     

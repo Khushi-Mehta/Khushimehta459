@@ -29,7 +29,7 @@ class calculator2
         ans = a/b;
         System.out.println("'/' operator entered. Quotient is :"+ans);
     }
-    void calculate(char ch)
+    void calculate()
     {
         switch(ch)
         {
@@ -53,6 +53,6 @@ class calculator2
     {
         calculator2 obj = new calculator2();
         obj.init(a,b,ch);
-        obj.calculate(ch);
+        obj.calculate();
     }
 }
